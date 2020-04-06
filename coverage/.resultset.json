@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/edwardphillips/Desktop/Projects/pairing-with-gina/bookmark_manager/spec/features/showing_bookmarkes_spec.rb": {
+      "/Users/ginafrankel/Projects/week_4/Bookmark_manager/spec/features/showing_bookmarkes_spec.rb": {
         "lines": [
           1,
           1,
@@ -12,6 +12,6 @@
         ]
       }
     },
-    "timestamp": 1586181936
+    "timestamp": 1586183151
   }
 }

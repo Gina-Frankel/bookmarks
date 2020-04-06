@@ -2,7 +2,7 @@ require 'sinatra'
 class Bookmarker < Sinatra::Base
   enable :sessions
   get '/' do
-    "Hello bookmark!"
+    erb(:index)
   end
   run! if app_file == $0
 end
