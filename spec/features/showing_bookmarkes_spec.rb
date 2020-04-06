@@ -9,5 +9,4 @@ feature "showing bookmarks" do
     expect(page).to have_current_path('/bookmarks')
   end 
 
-
 end
