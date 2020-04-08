@@ -8,6 +8,8 @@ require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
 Capybara.app = Bookmarker
 
+require_relative './setup_test_database.rb'
+
 ENV['ENVIRONMENT'] = 'test'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([

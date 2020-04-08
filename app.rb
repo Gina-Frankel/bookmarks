@@ -1,5 +1,6 @@
 require 'sinatra'
 require './lib/bookmark'
+
 class Bookmarker < Sinatra::Base
   enable :sessions
   get '/' do
