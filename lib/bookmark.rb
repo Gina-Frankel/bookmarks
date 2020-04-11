@@ -4,6 +4,7 @@ class Bookmarks
   
 
   def self.all
+     p ENV['ENVIRONMENT']
     if ENV['ENVIRONMENT'] == 'test'
       connection = PG.connect(dbname: 'bookmark_manager_test')
     else
@@ -12,6 +13,7 @@ class Bookmarks
     
     result = connection.exec('SELECT * FROM bookmarks')
     result.map { |bookmark| bookmark["url"] }
+    
   end 
 
 end

@@ -1,3 +1,15 @@
+# Specifications
+
+- Show a list of bookmarks
+-  Add new bookmarks
+- Delete bookmarks
+- Update bookmarks
+- Comment on bookmarks
+- Tag bookmarks into categories
+- Filter bookmarks by tag
+- Users are restricted to manage only - their own bookmarks
+
+
 [![](https://mermaid.ink/img/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5cbmNsYXNzIEJvb2ttYXJrTWFuYWdlciB7XG4gICtjdXJyZW50X2Jvb2ttYXJrc1xuICArc2hvd19ib29rbWFya3MoKVxufSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5cbmNsYXNzIEJvb2ttYXJrTWFuYWdlciB7XG4gICtjdXJyZW50X2Jvb2ttYXJrc1xuICArc2hvd19ib29rbWFya3MoKVxufSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
 The above is based on the following user story:
@@ -10,6 +22,16 @@ I'd like to seea list of my bookmarks"
 
 table specification: 
 with two columns: id, a SERIAL PRIMARY KEY, and url, a VARCHAR with a maximum length of 60
+
+
+# User story - Add new bookmarks
+
+```
+As a user
+So I can store bookmark data for later retrieval
+I want to add a bookmark to Bookmark Manager
+```
+
 
 
 # Database setup 
